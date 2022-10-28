@@ -1,8 +1,12 @@
+import { Header } from './Components/Header/Header';
+import { GlobalStyle } from './styles/global';
+
 const App = () => {
   return (
-    <div>
-      test
-    </div>
+    <>
+    <GlobalStyle />
+    <Header />
+    </>
   );
 }
 
